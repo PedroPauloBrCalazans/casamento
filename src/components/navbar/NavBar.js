@@ -12,9 +12,9 @@ export default function NavBar() {
     return (
         <div>
             <ul id="dropdown1" className="dropdown-content">
-                <li><Link to="/lista-convidados" style={{ fontFamily: "Dancing Script", fontSize: "20px"}}>Lista de Convidados</Link></li> 
+                <li><Link to="/lista-convidados" style={{ fontFamily: "Dancing Script", fontSize: "20px"}}>Confirmar Presença</Link></li> 
                 <li className="divider"></li>
-                <li><Link to="/lista-presentes" style={{ fontFamily: "Dancing Script", fontSize: "20px"}}>Presentes Padrinhos</Link></li>
+                <li><Link to="/lista-presentes" style={{ fontFamily: "Dancing Script", fontSize: "20px"}}>Lista de Presentes</Link></li>
             </ul>
             <nav>
                 <div className="nav-wrapper">
