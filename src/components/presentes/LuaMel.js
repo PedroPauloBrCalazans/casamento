@@ -14,7 +14,7 @@ export default function LuaMel() {
                 <div className="col s12 m4">
                     <div className="card">
                         <div className="card-image">
-                            <img src="images/luaMel/bike.jpg"/>
+                            <img src="images/luaMel/bike.jpg" alt="bike"/>
                         </div>
                         <div className="card-content">
                             <p>Aluguel e Passeio de Bike</p>
@@ -28,7 +28,7 @@ export default function LuaMel() {
                 <div className="col s12 m4">
                     <div className="card">
                         <div className="card-image">
-                            <img src="images/luaMel/cafedamanha.jpg"/>
+                            <img src="images/luaMel/cafedamanha.jpg" alt="cafe"/>
                         </div>
                         <div className="card-content">
                             <p>Café da Manhã</p>
@@ -42,7 +42,7 @@ export default function LuaMel() {
                 <div className="col s12 m4">
                     <div className="card">
                         <div className="card-image">
-                            <img src="images/luaMel/brinde.jpg"/>
+                            <img src="images/luaMel/brinde.jpg" alt="brinde"/>
                         </div>
                         <div className="card-content">
                             <p>Brinde a Beira-Mar</p>
@@ -59,7 +59,7 @@ export default function LuaMel() {
                 <div className="col s12 m4">
                     <div className="card">
                         <div className="card-image">
-                            <img src="images/luaMel/almoco.jpg"/>
+                            <img src="images/luaMel/almoco.jpg" alt="almoço"/>
                         </div>
                         <div className="card-content">
                             <p>Almoço a Beira-Mar</p>
@@ -73,7 +73,7 @@ export default function LuaMel() {
                 <div className="col s12 m4">
                     <div className="card">
                         <div className="card-image">
-                            <img src="images/luaMel/barco.jpg"/>
+                            <img src="images/luaMel/barco.jpg" alt="barco"/>
                         </div>
                         <div className="card-content">
                             <p>Passeio de Barco</p>
@@ -87,7 +87,7 @@ export default function LuaMel() {
                 <div className="col s12 m4">
                     <div className="card">
                         <div className="card-image">
-                            <img src="images/luaMel/spa.jpg"/>
+                            <img src="images/luaMel/spa.jpg" alt="spa"/>
                         </div>
                         <div className="card-content">
                             <p>Massagem em SPA</p>

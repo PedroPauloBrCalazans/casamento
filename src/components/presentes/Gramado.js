@@ -14,7 +14,7 @@ export default function Gramado() {
             <div className="col s12 m4">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/gramado/cavalo.jpg" style={{borderRadius: '5px'}}/>
+                        <img src="images/gramado/cavalo.jpg" style={{borderRadius: '5px'}} alt="cavalo"/>
                     </div>
                     <div className="card-content">
                         <p>Passeio a Cavalo</p>
@@ -28,7 +28,7 @@ export default function Gramado() {
             <div className="col s12 m4">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/gramado/parque.jpg"/>
+                        <img src="images/gramado/parque.jpg" alt="parque"/>
                     </div>
                     <div className="card-content">
                         <p>Visita Parque do Caracol e Ecoparque</p>
@@ -42,7 +42,7 @@ export default function Gramado() {
             <div className="col s12 m4">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/gramado/snowland.jpg"/>
+                        <img src="images/gramado/snowland.jpg"  alt="snowland"/>
                     </div>
                     <div className="card-content">
                         <p>Passeio no parque Snowland</p>
@@ -59,7 +59,7 @@ export default function Gramado() {
             <div className="col s12 m4">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/gramado/mariaFumaca.jpg"/>
+                        <img src="images/gramado/mariaFumaca.jpg" alt="maria fumaca"/>
                     </div>
                     <div className="card-content">
                         <p>Passeio Maria Fumaça</p>
@@ -73,7 +73,7 @@ export default function Gramado() {
             <div className="col s12 m4">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/gramado/noiteDan.jpg"/>
+                        <img src="images/gramado/noiteDan.jpg"  alt="noite dançante"/>
                     </div>
                     <div className="card-content">
                         <p>Noite dançante no Bill Bar</p>
@@ -87,7 +87,7 @@ export default function Gramado() {
             <div className="col s12 m4">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/gramado/jantarRomantico.jpg"/>
+                        <img src="images/gramado/jantarRomantico.jpg" alt="jantar"/>
                     </div>
                     <div className="card-content">
                         <p>Jantar Romantico no Petite Maison</p>

@@ -1,52 +1,49 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function Convidados() {
 
+    const [ nomeConvidado, setNomeConvidado ] = useState("");
+    //const [ nomeConvidado, setNomeConvidado ] = useState("");
+
+    function handleFormSubmit(ev) {
+        ev.preventDefault();
+
+        const data = { nomeConvidado };
+
+        if(data){
+            alert("Boa festa " + `${nomeConvidado}`)
+        }
+        setNomeConvidado('')
+    }
+    
+
     return (
         <div className="container">
-                <br/>
-              <table>
-                <thead>
-                <tr>
-                    <th>Presencia</th>
-                    <th>Nome</th>
-                    <th>Acompanhates</th>
-                </tr>
-                </thead>
+            <br/>
+            <h4>Confirmar Presença</h4>
 
-                <tbody>
-                <tr>
-                    <td>
-                        <label>
-                            <input type="checkbox" />
-                            <span>Confirmar</span>
-                        </label>
-                    </td>
-                    <td>Soro & Vera</td>
-                    <td>Bruna & Brenda</td>
-                </tr>
-                <tr>
-                    <td>
-                        <label>
-                            <input type="checkbox" />
-                            <span>Confirmar</span>
-                        </label>
-                    </td>
-                    <td>Raphael & Fabiana</td>
-                    <td>Gabriel & Lara</td>
-                </tr>
-                <tr>
-                    <td>
-                        <label>
-                            <input type="checkbox" />
-                            <span>Confirmar</span>
-                        </label>
-                    </td>
-                    <td>Elenita & Giovanni</td>
-                    <td></td>
-                </tr>
-                </tbody>
-            </table>
+            <form onSubmit={handleFormSubmit} className="col s12">
+                <div className="row">
+                    <div className="input-field col s6">
+                        <i className="material-icons prefix">account_circle</i>
+                        <label className="active"> Nome Completo</label>
+                        <input  
+                            type="text"
+                            required 
+                            className="validate"  
+                            value={nomeConvidado} 
+                            onChange={(event) => { setNomeConvidado(event.target.value);  }} 
+                        />
+                        </div>
+                    </div>
+                    <br/>
+
+                    <div>
+                        <button className="waves-effect waves-light btn-small" type="submit">Cadastrar
+                            <i className="material-icons right">send</i>
+                        </button>
+                    </div>
+            </form>
         </div>
     )
 }

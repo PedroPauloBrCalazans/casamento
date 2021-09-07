@@ -14,7 +14,7 @@ export default function NossaCasa() {
             <div className="col s12 m4">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/nossaCs/colcha.jpg" style={{borderRadius: '5px'}}/>
+                        <img src="images/nossaCs/colcha.jpg" style={{borderRadius: '5px'}} alt="colcha"/>
                     </div>
                     <div className="card-content">
                         <p>Colcha de Casal</p>
@@ -28,7 +28,7 @@ export default function NossaCasa() {
             <div className="col s12 m4">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/nossaCs/lencol.jpg"/>
+                        <img src="images/nossaCs/lencol.jpg" alt="lencol"/>
                     </div>
                     <div className="card-content">
                         <p>Jogo de Lençol Casal</p>
@@ -42,7 +42,7 @@ export default function NossaCasa() {
             <div className="col s12 m4">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/nossaCs/lencolKing.jpg"/>
+                        <img src="images/nossaCs/lencolKing.jpg" alt="lencol King"/>
                     </div>
                     <div className="card-content">
                         <p>Jogo de Lençol King 400 fios</p>
@@ -59,7 +59,7 @@ export default function NossaCasa() {
             <div className="col s12 m4">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/nossaCs/micro.jpg"/>
+                        <img src="images/nossaCs/micro.jpg" alt="micro"/>
                     </div>
                     <div className="card-content">
                         <p>Microondas</p>
@@ -73,7 +73,7 @@ export default function NossaCasa() {
             <div className="col s12 m4">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/nossaCs/panelas.jpg"/>
+                        <img src="images/nossaCs/panelas.jpg" alt="panelas"/>
                     </div>
                     <div className="card-content">
                         <p>Jogo de Panelas Kitchen Utensils</p>
@@ -87,7 +87,7 @@ export default function NossaCasa() {
             <div className="col s12 m4">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/nossaCs/fogao.jpg"/>
+                        <img src="images/nossaCs/fogao.jpg" alt="fogao"/>
                     </div>
                     <div className="card-content">
                         <p>Cooktop Brastemp 4 Bocas</p>

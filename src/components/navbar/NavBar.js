@@ -15,6 +15,7 @@ export default function NavBar() {
                 <li><Link to="/lista-convidados" style={{ fontFamily: "Dancing Script", fontSize: "20px"}}>Confirmar Presença</Link></li> 
                 <li className="divider"></li>
                 <li><Link to="/lista-presentes" style={{ fontFamily: "Dancing Script", fontSize: "20px"}}>Lista de Presentes</Link></li>
+                <li><Link to="/evento" style={{ fontFamily: "Dancing Script", fontSize: "20px"}}>Evento</Link></li> 
             </ul>
             <nav>
                 <div className="nav-wrapper">
