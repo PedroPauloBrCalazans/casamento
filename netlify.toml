@@ -1,4 +1,4 @@
-build:
+build =
     base = /opt/build/repo
     command = yarn build
     publish = opt/build/repo/build
