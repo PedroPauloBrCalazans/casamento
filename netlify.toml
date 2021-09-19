@@ -2,10 +2,3 @@
 base = "."
 command = "yarn build"
 publish = "./build/"
-
-build: 
-base: /opt/build/repo
-command: yarn build
-commandOrigin: config
-publish: opt/build/repo/build
-publishOrigin: config
