@@ -40,7 +40,7 @@ export default function App() {
           </Route>
 
           <Route path="/">
-            <img style={{width: "100%", height:"1000px" ,float:"left", position:"fixed"}} src="/images/casamento.jpg" />
+            <img style={{width: "100%", height:"1000px" ,float:"left", position:"fixed"}} src="/images/casamento.jpg"  alt='casal'/>
           </Route>
         </Switch>
       </Router>

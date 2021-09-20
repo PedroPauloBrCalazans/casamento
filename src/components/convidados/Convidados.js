@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 export default function Convidados() {
 
     const [ nomeConvidado, setNomeConvidado ] = useState("");
-    //const [ nomeConvidado, setNomeConvidado ] = useState("");
 
     function handleFormSubmit(ev) {
         ev.preventDefault();
@@ -11,7 +10,7 @@ export default function Convidados() {
         const data = { nomeConvidado };
 
         if(data){
-            alert("Boa festa " + `${nomeConvidado}`)
+            alert("Boa festa " +  `${nomeConvidado}`)
         }
         setNomeConvidado('')
     }
