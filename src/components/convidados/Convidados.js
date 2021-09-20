@@ -10,7 +10,7 @@ export default function Convidados() {
         const data = { nomeConvidado };
 
         if(data){
-            alert("Boa festa " +  `${nomeConvidado}`)
+            alert("Boa festa " + nomeConvidado)
         }
         setNomeConvidado('')
     }
